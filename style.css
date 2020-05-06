@@ -1,0 +1,217 @@
+* {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+#img{
+    height: 200px;
+    width: 200px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #f6f7f9;
+    font-weight: 600;
+}
+body {
+    
+    background-color: #1D1F3E;
+}
+.animationload {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    z-index: 999999;
+}
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/img/Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* ------------------
+    Boy
+--------------------*/
+.boy {
+    width: 560px;
+    height: 445px;
+    position: relative;
+    margin: 20px auto 0px;
+}
+
+.boy .boy_tv {
+    width: 498px;
+    height: 445px;
+    background-image: url("./assets/img/boy.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-color: transparent;
+    background-size: 100%;
+    position: absolute;
+    left: 47px;
+    z-index: 2;
+
+}
+
+.boy .antenna {
+    width: 111px;
+    height: 315px;
+    position: absolute;
+    background-image: url("./assets/img/antenna.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: transparent;
+    background-size: 100%;
+    left: 20px;
+    top: 9px;
+    -moz-animation: 0.5s ease 0s normal none infinite antenna;
+    -moz-transform-origin: center top;
+    -webkit-animation: antenna 0.5s infinite ease-in-out;
+    -webkit-transform-origin: bottom;
+    -o-animation: 0.5s ease 0s normal none infinite antenna;
+    -o-transform-origin: center top;
+    -o-animation: antenna 0.5s infinite ease-in-out;
+    -o-transform-origin: bottom;
+    -ms-animation: 0.5s ease 0s normal none infinite antenna;
+    -ms-transform-origin: center top;
+    -ms-animation: antenna 0.5s infinite ease-in-out;
+    -ms-transform-origin: bottom;
+    animation: 0.5s ease 0s normal none infinite antenna;
+    transform-origin: center top;
+    animation: antenna 0.5s infinite ease-in-out;
+    transform-origin: bottom;
+}
+
+@-moz-keyframes antenna {
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg)
+    }
+}
+
+@-webkit-keyframes antenna {
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg)
+    }
+}
+
+@-o-keyframes antenna {
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg)
+    }
+}
+
+@-ms-keyframes antenna {
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg)
+    }
+}
+
+@keyframes antenna {
+    0% {
+        -webkit-transform: rotate(-1deg)
+    }
+
+    50% {
+        -webkit-transform: rotate(1deg)
+    }
+
+    100% {
+        -webkit-transform: rotate(-1deg)
+    }
+}
+
+.screen {
+    width: 105px;
+    height: 78px;
+    background-image: url("./assets/img/screen.gif");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-color: transparent;
+    background-size: 100%;
+    position: absolute;
+    right: 77px;
+    bottom: 77px;
+}
+/* ------------------
+    Watch
+--------------------*/
+#watch {
+    color: #f6f7f9;
+}
+
+
+#watch .dash {
+    display: inline-block;
+    width: auto;
+    padding: 31px 25px 0;
+    height: 168px;
+    line-height: 62px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0px 12px;
+}
+
+#watch .dash .digit {
+    
+    font-size: 100px;
+    line-height: 79px;
+    height: 81px;
+    float: left;
+}
+
+#watch .dash .digit .top,
+#watch .dash .digit .bottom {
+    font-weight: 900;
+}
+
+#watch .dash span.dash_title {
+    font-size: 16px;
+    line-height: 16px;
+    padding-top: 15px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    clear: both;
+}
