@@ -35,7 +35,7 @@ body {
     margin: -100px 0 0 -100px;
     width: 200px;
     height: 200px;
-    background-image: url("./assets/img/Logo.png");
+    background-image: url("./assets/img/ajax-loader.gif");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -52,7 +52,7 @@ body {
 .boy .boy_tv {
     width: 498px;
     height: 445px;
-    background-image: url("./assets/img/boy.png");
+    background-image: url("../img/boy.png");
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: transparent;
@@ -67,12 +67,12 @@ body {
     width: 111px;
     height: 315px;
     position: absolute;
-    background-image: url("./assets/img/antenna.png");
+    background-image: url("../img/antenna.png");
     background-repeat: no-repeat;
     background-position: left top;
     background-color: transparent;
     background-size: 100%;
-    left: 20px;
+    left: 19px;
     top: 9px;
     -moz-animation: 0.5s ease 0s normal none infinite antenna;
     -moz-transform-origin: center top;
@@ -165,7 +165,7 @@ body {
 .screen {
     width: 105px;
     height: 78px;
-    background-image: url("./assets/img/screen.gif");
+    background-image: url("../img/screen.gif");
     background-repeat: no-repeat;
     background-position: left top;
     background-color: transparent;
